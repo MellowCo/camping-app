@@ -96,7 +96,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.guide-content{
+.guide-content {
   height: 1624rpx;
 }
 
@@ -109,9 +109,9 @@ export default {
 
 .guide-title {
   margin-top: 80rpx;
+  line-height: 1;
   text-align: center;
   font-size: 64rpx;
-  line-height: 1;
 }
 
 .guide-desc {
@@ -131,7 +131,7 @@ export default {
   border-radius: 20rpx;
   width: 670rpx;
   height: 88rpx;
-  background-color: #84cc16;
+  background-color: $theme-color;
   box-shadow: 0 20rpx 40rpx rgba(132, 204, 22, .15);
   line-height: 42rpx;
   font-size: 28rpx;
@@ -169,13 +169,13 @@ export default {
 
       &.active {
         position: relative;
-        background-color: #84cc16;
+        background-color: $theme-color;
 
         &::after {
           position: absolute;
           left: 50%;
           top: 50%;
-          border: 4rpx #84cc16 solid;
+          border: 4rpx $theme-color solid;
           border-radius: 50rpx;
           width: 32rpx;
           height: 32rpx;
@@ -203,7 +203,6 @@ export default {
 
     &.guide-move-left {
       background-color: #ecfccb;
-      
     }
 
     &.guide-move-right {
@@ -212,7 +211,7 @@ export default {
   }
 }
 
-.isHide{
+.isHide {
   visibility: hidden;
 }
 </style>

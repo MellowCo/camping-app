@@ -10,4 +10,6 @@ export const guideImgs = [
   `${imgRoot}/guide/arrow-right.svg`
 ]
 
+export const logoImg = `${imgRoot}/logo.svg`
+
 export default guideImgs

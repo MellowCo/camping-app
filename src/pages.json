@@ -19,6 +19,17 @@
 					}
         }
       ]
+    },
+    {
+      "root": "pages/login",
+      "pages": [
+        {
+          "path": "index",
+					"style": {
+						"navigationBarTitleText": "login"
+					}
+        }
+      ]
     }
   ],
 
